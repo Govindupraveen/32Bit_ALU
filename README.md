@@ -1,4 +1,4 @@
-# 32Bit_ALU Simulation
+# Exp-3: 32Bit_ALU Simulation
 
 # Aim: 
 
@@ -60,6 +60,14 @@ source /cadence/install/cshrc (mention the path of the tools)
       
 After this you can see the window like below 
 
+
+![Screenshot (23)](https://github.com/user-attachments/assets/31217055-c4aa-4659-9642-2d9182f15290)
+
+
+
+
+
+
 ### Fig 2: Invoke the Cadence Environment
 
 To Launch Simulation tool 
@@ -73,11 +81,20 @@ or
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
+
+
+
+
 ### Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
+
+
+
+
+
 
 ### Fig 4:cds.lib file Creation
 
@@ -89,7 +106,10 @@ We are simulating verilog design without using any libraries
 
 A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
-![image](https://github.com/user-attachments/assets/d5202b97-ee5c-4e0e-9eaf-5f3fa733e546)
+![Screenshot (25)](https://github.com/user-attachments/assets/940990f3-49c4-453e-8a50-4d5728aa8e5c)
+
+
+
 
 ### Fig 5: Selection of Don’t include any libraries
 
@@ -103,13 +123,19 @@ To perform the function simulation, the following three steps are involved Compi
 
 ### Fig 6: Nclaunch Window
 
+
+![Screenshot (29)](https://github.com/user-attachments/assets/4b997c10-e2ce-4370-ad0a-2c7d48472064)
+
+
+
 ## Step 1: Compilation:
 
 – Process to check the correct Verilog language syntax and usage 
 
 Inputs: Supplied are Verilog design and test bench codes 
 
-Outputs: Compiled database created in mapped library if successful, generates report else error reported in log file 
+Outputs: Compiled database created in mapped library if successful, generates report else error reported in log file ![IMG-20241118-WA0055]
+
 
 ## 	Steps for compilation: 
 
@@ -124,6 +150,13 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+
+
+![Screenshot (30)](https://github.com/user-attachments/assets/93bb1aef-c53a-40e2-ba78-79bd7e0d20fe)
+
+
+
+
 
 ### Fig 7: Compiled database in worklib
 
@@ -159,7 +192,15 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
 
+![Screenshot 2024-11-23 172135](https://github.com/user-attachments/assets/35132ac1-fce8-43d6-b63a-7f5f826356ff)
+
+
+
 ## Fig 8: Elaboration Launch Option
+
+
+![Screenshot 2024-11-20 192509](https://github.com/user-attachments/assets/26c38f98-9e5a-461b-98f1-d012031e3679)
+
 
 ## Step 3: Simulation: 
 
@@ -175,9 +216,37 @@ Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
 
+
+![Screenshot 2024-11-20 192614](https://github.com/user-attachments/assets/350369c8-8fed-4296-af5f-b4f66807eae7)
+
+
 ## Fig 10:Simulation Waveform Window
 
+
+![Screenshot 2024-11-20 192637](https://github.com/user-attachments/assets/8875aadc-3502-4bf1-ad5d-330886fda1a7)
+
+
 ## Fig 11:Simulation Waveform Window
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Result
 
