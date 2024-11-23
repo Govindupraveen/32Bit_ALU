@@ -81,6 +81,7 @@ or
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
+![Uploading Screenshot (24).png…]()
 
 
 
